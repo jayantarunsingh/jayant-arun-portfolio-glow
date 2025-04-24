@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Certificate, GraduationCap } from 'lucide-react';
+import { FileBadge, GraduationCap } from 'lucide-react';
 
 interface CertificateCardProps {
   title: string;
@@ -26,7 +26,7 @@ const CertificateCard = ({
     >
       <div className="flex gap-4">
         <div className="w-12 h-12 rounded-full bg-gradient-to-br from-electric-blue to-vibrant-purple flex items-center justify-center flex-shrink-0">
-          <Certificate className="w-6 h-6 text-white" />
+          <FileBadge className="w-6 h-6 text-white" />
         </div>
         <div>
           <h3 className="font-medium text-lg text-white">{title}</h3>
